@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>If Statements</title>
+  <style>
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .title {
+      background-color: lightgrey;
+      padding: 1rem;
+      border-radius: 10px;
+    }
+    #input-box {
+      padding: 1rem;
+      font-size: 1.5rem;
+      background-color: rgb(85, 85, 85);
+      border: 2px solid black;
+      border-radius: 10px;
+      color: white;
+    }
+    #submit-btn {
+      padding: 1rem;
+      margin: 2rem;
+      font-size: 1.2rem;
+      font-weight: bold;
+      background-color: lightsalmon;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Enter your age</h1>
+    <input type="number" id="input-box">
+    <button id="submit-btn" onclick="checker()">Submit</button>
+    <h1 id="result"></h1>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
