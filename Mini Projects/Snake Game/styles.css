@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: "Urbanist", sans-serif;
+  background: #0d0d0d;
+  background-image: url(https://www.bharatui.com/assets/HeroGra.webp), url(https://www.bharatui.com/assets/Small.webp);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: normal, soft-light;
+}
+
+@keyframes rgb-button {
+  0%   { border-color: #800080; }  
+  25%  { border-color: #c71585; }  
+  50%  { border-color: #ff69b4; }   
+  75%  { border-color: #db70b8; }   
+  100% { border-color: #800080; }  
+}
+
+.rgb-button:hover {
+  animation: rgb-button 2s linear infinite;
+  box-shadow: 0 0 12px rgba(255, 105, 180, 0.4);
+}
